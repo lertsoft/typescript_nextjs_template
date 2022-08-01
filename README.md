@@ -1,5 +1,7 @@
 # Boilerplate and Starter for Next JS 12+, Tailwind CSS 3 and TypeScript
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=28ADE7&center=true&lines=Modern+Template;Production+ready;Built+your+next+project)](https://git.io/typing-svg)
+
 🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project.
