@@ -17,9 +17,10 @@ const Meta = (props: IMetaProps) => {
     <>
       <Head>
         <meta charSet="UTF-8" key="charset" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
           name="viewport"
-          content="width=device-width,initial-scale=1"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
           key="viewport"
         />
         <link
@@ -27,20 +28,13 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/apple-touch-icon.png`}
           key="apple"
         />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href={`${router.basePath}/favicon-32x32.png`}
-          key="icon32"
+        <meta
+          name="typescript_next_template"
+          content="typescript_next_template"
         />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href={`${router.basePath}/favicon-16x16.png`}
-          key="icon16"
-        />
+        <meta name="theme-color" content="#000" />
+        <title>typescript_next_template</title>
+        <link rel="manifest" href="/manifest.json" />
         <link
           rel="icon"
           href={`${router.basePath}/favicon.ico`}

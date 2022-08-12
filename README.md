@@ -26,6 +26,7 @@ Developer experience first:
 - 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
 - 🌈 Include a FREE minimalist theme
 - 💯 Maximize lighthouse score
+- 🧩 Progresive web App
 
 Built-in feature from Next.js:
 
@@ -38,6 +39,13 @@ Built-in feature from Next.js:
 - Minimal code
 - SEO-friendly
 - 🚀 Production-ready
+
+### Getting things PWA ready
+
+- Create the app [maskable](https://maskable.app/editor) icon
+- Generate the icons and [manifest.json](https://www.simicart.com/manifest-generator.html/) files
+- publish the app anywhere with [PWA Builder](https://www.pwabuilder.com/
+- Check the /layout/Meta for all metadata :)
 
 ### Requirements
 
