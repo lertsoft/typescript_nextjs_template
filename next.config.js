@@ -16,12 +16,15 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
 });
 
-const withPWA = require('next-pwa');
+// const withPWA = require('next-pwa');
+
+const withPWA = require('next-pwa')({
+  dest: 'public',
+});
 
 module.exports = withPWA({
   // ...before
   pwa: {
-    dest: 'public',
     register: true,
     skipWaiting: true,
   },
