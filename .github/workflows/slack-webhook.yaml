@@ -1,6 +1,6 @@
 name: Push to Slack
 
-on: pull_request
+on: push
 jobs:
   my-job:
     name: Push to Slack
