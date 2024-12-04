@@ -1,7 +1,10 @@
 name: Push to Slack
 
-on: push
-
+on: 
+  pull_request:
+    # Sequence of patterns matched against refs/heads
+    branches:
+      - main
 jobs:
   my-job:
     name: Push to Slack
