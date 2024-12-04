@@ -10,8 +10,9 @@ jobs:
       - name: Post a message in a channel
         
         env:
-          webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         uses: act10ns/slack@v2.1.0
         with:
+          webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
           status: ${{ job.status }}
           steps: ${{ toJson(steps) }}
